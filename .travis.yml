@@ -1,6 +1,7 @@
 language: python
-arch: amd64
-      ppc64le 
+arch:
+  - amd64
+  - ppc64le 
 dist: xenial
 cache: pip
 matrix:
